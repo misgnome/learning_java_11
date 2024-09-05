@@ -1,4 +1,5 @@
 package src;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -26,8 +27,16 @@ public class Main {
         System.out.println(studentLastName);
 
         //String concatenation
-        System.out.println(studentFirstName + " " + studentLastName +
-        " has a GPA of " + studentGPA + ".");
+        String studentName = studentFirstName + " " + studentLastName;
+        System.out.println(studentName + " has a GPA of " + studentGPA + ".");
+        
+        // Interact with and receive user input!
+        System.out.println("What do you want to update it to?");
+        Scanner input = new Scanner(System.in);
+        studentGPA = input.nextDouble();
+
+        // Print new output
+        System.out.println(studentName + " now has a GPA of " + studentGPA + ".");
     }
 }
    
