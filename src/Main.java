@@ -5,8 +5,6 @@ public class Main {
         // Primitive Types
         int studentAge = 15;
         double studentGPA = 3.45;
-        char studentFirstInitial = 'K';
-        char studentLastInitial = 'H';
         boolean hasPerfectAttendance = true;
         
         // Reference Types - built out of organizing primitive types
@@ -14,6 +12,9 @@ public class Main {
         String studentFirstName = "Kayla";
         String studentLastName = "Hammon";
 
+        // String access exercises
+        char studentFirstInitial = studentFirstName.charAt(0);
+        char studentLastInitial = studentLastName.charAt(0);
         
         System.out.println(studentAge);
         System.out.println(studentGPA);
