@@ -11,7 +11,8 @@ public class Main {
         
         // Reference Types - built out of organizing primitive types
         // 1. Strings
-        String studentName = "Kayla Hammon";
+        String studentFirstName = "Kayla";
+        String studentLastName = "Hammon";
 
         
         System.out.println(studentAge);
@@ -20,7 +21,8 @@ public class Main {
         System.out.println(studentLastInitial);
         System.out.println(hasPerfectAttendance);
 
-        System.out.println(studentName);
+        System.out.println(studentFirstName);
+        System.out.println(studentLastName);
     }
 }
    
