@@ -55,6 +55,9 @@ public class Main {
 
         double triangleBArea = triangleB.findArea();
         System.out.println("triangle B area is " + triangleBArea);
+
+        System.out.println(triangleA.sideLenThree);
+        System.out.println(triangleB.base);
     }
       
        
