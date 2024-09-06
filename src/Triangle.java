@@ -1,7 +1,13 @@
 package src;
 import java.util.Scanner;
+
+import javax.swing.plaf.basic.BasicTreeUI.TreeIncrementAction;
+
 import java.text.DecimalFormat;
 public class Triangle {
+    static int numOfSides = 3;
+    static int sumOfAngles = 180;
+
     double base;
     double height;
     double sideLenOne;
@@ -58,6 +64,8 @@ public class Main {
 
         System.out.println(triangleA.sideLenThree);
         System.out.println(triangleB.base);
+        System.out.println(Triangle.numOfSides);
+        System.out.println(Triangle.sumOfAngles);
     }
       
        
